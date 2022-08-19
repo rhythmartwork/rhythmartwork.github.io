@@ -1,0 +1,184 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-family: Hanson;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url("headerbg.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center
+}
+
+.logo img{
+    position: absolute;
+    float: left;
+    left: 7%;
+    top: 14%;
+    transform: translate(-50%, -50%);
+    width: 12%;
+    height: auto;
+}
+
+.title {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 58px;
+    font-family: Hanson;
+    border: 2px solid white;
+    color: white;
+    padding: 8px 20px;
+    white-space: nowrap;
+
+}
+
+.button {
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    scroll-behavior: smooth;
+}
+
+.btn {
+    border: 1px solid white;
+    padding: 10px 44px;
+    transition: 0.3s ease;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Hanson;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.btn:hover {
+    color: black;
+    background-color: white;
+}
+
+h4 {
+    font-size: 22px;
+    border: 3px solid yellow;
+    padding: 14px 14px;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 11em;
+    text-align: center;
+}
+
+.subheading {
+    color: black;
+    position: absolute;
+    margin-top:14%;
+    left: 31%;
+    font-size: 34px;
+    background-color: yellow;
+}
+
+
+.img-gallery {
+    width: 86%;
+    margin-top: 2%;
+    margin-left:109px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.img-gallery img{
+    position: relative;
+    top: 79%;
+    height: 230px;
+    width: 85%;
+    height: 85%;
+    box-shadow: 3px 3px 5px #808080;
+    cursor: pointer;
+    transition: 0.25s ease;
+    border-radius: 20px;
+}
+
+.img-gallery img:hover {
+    transform: scale(1.23);
+    border-radius: 6px;
+}
+
+.instaIcon img {
+    width: 3%;
+    position: absolute;
+    float: left;
+    left: 37%;
+    top: 91.8%;
+}
+
+.DM {
+    font-size: 19px;
+    color: white;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 95%;
+    left: 50.2%;
+    transform: translate(-50%, -50%);
+    transition: 0.24s ease;
+}
+
+.DM:hover {
+    background-color: rgba(255,255,255,0.8);
+    color: black;
+    border-radius: 4px;
+    padding: 5px 5px;
+}
+
+body {
+    background-image: url("pexels-miguel-á-padriñán-19670.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);*/
+}
+
+h2  {
+    position: absolute;
+    left: 38.5%;
+    background-color: yellow;
+    padding: 2px 6px;
+    margin-top: 22%;
+    font-size: 34px;
+}
+
+.thumbnailGallery {
+    width: 86%;
+    margin: auto;
+    margin-left: 120px;
+    margin-top: 180px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2px;
+}
+
+.thumbnailGallery img{
+    position: relative;
+    top: 75%;
+    height: 230px;
+    width: 87%;
+    height: 87%;
+    box-shadow: 3px 3px 5px #808080;
+    cursor: pointer;
+    transition: 0.25s ease;
+    border-radius: 20px;
+}
+
+.thumbnailGallery img:hover {
+    transform: scale(1.12);
+    border-radius: 6px;
+}
+
